@@ -37,7 +37,7 @@ optional arguments:
 
 ### Testing with msfvenom
 Must have EXITFUNC=thread  
-Most C2's build this in
+Most C2's have this built in
 
 ## Compile Example
 ![Compile Example](pics/generator.png)
