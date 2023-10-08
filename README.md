@@ -14,7 +14,7 @@ Packing into ZIP/ISO
 
 ## Credits
 
-[@kyle41111](https://github.com/kyle41111)
+Malware development credits: [@kyle41111](https://github.com/kyle41111)
 
 ## Usage
 ```
