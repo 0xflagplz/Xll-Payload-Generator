@@ -1,11 +1,23 @@
 import argparse
 from support import *
 
+ascii_art = """
+██   ██ ██      ██           ██████  ███████ ███    ██ 
+ ██ ██  ██      ██          ██       ██      ████   ██ 
+  ███   ██      ██          ██   ███ █████   ██ ██  ██ 
+ ██ ██  ██      ██          ██    ██ ██      ██  ██ ██ 
+██   ██ ███████ ███████      ██████  ███████ ██   ████ 
+
+                                @achocolatechippancake
+                                            @bobby4111
+"""
+
 def main():
+    print(ascii_art)
     parser = argparse.ArgumentParser(description="Encrypt a binary file and generate C++ code.")
     parser.add_argument("-i", "--input", required=True, help="Path to the input binary file")
     parser.add_argument("-t", "--type", choices=['aes', 'none'], default='none', help="Encryption type (aes or none)")
-    parser.add_argument("-k", "--key", help="Encryption key (128-bit AES key in hexadecimal)")
+    parser.add_argument("-k", "--key", help="Will generate if not supplied. Encryption key (128-bit AES key in hexadecimal)")
     parser.add_argument("-s", "--sleep", action="store_true", help="Add sleep function")
     parser.add_argument("--sand", action="store_true", help="Add sandbox function")
     parser.add_argument("--inflate", "-m", help="Inflate Size (Specify MB Size)")
