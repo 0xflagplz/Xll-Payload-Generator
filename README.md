@@ -12,6 +12,10 @@ Packing into ZIP/ISO
 #### Requirements
 > g++
 
+## Credits
+
+[@kyle41111](https://github.com/kyle41111)
+
 ## Usage
 ```
 usage: XllGen.py [-h] -i INPUT [-t {aes,none}] [-k KEY] [-s] [--sand] [--inflate INFLATE] -o OUTPUT [-p PROCESS]
