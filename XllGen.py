@@ -42,7 +42,7 @@ def main():
     generate_c_code(input_file, encryption_type, bytes.fromhex(key) if key else None, sleep_enabled, sandbox_enabled, process)
     generate_more_code('temp')
     compile_cpp_to_xll(output_xll_file)
-    #cleanup()
+    cleanup()
     if size is not None:
         if not size.isdigit():
             print("Error: Size must be an integer. Inflation Failed")
